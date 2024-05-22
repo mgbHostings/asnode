@@ -1,0 +1,23 @@
+<div class="main_content">
+    <app-topbar></app-topbar>
+    <!-- class="layout-main-container" -->
+    <div class="flex flex-column overflow-hidden h-full">
+        <div class="layout-main layout_omain flex flex-column overflow-hidden h-full">
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+    <app-footer></app-footer>
+
+    <app-config></app-config>
+    <div class="layout-mask"></div>
+</div>
+
+<!-- 
+<style>
+    .layout_main {
+        overflow: hidden;
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+    }
+</style> -->
